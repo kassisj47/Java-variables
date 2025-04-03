@@ -31,7 +31,7 @@ public class Main {
         char symbol = '!';
         char currency = '$';
 
-        boolean isStudent = true;
+        boolean isStudent = false;
         boolean forSale = false;
         boolean isOnline = true;
 
@@ -41,15 +41,15 @@ public class Main {
         String car = "Mustang";
         String color = "red";
 
-        System.out.println("Hi, I am Jonathan!");
-        System.out.println("Java is my first programming language");
-        System.out.println("My gpa is: " + gpa);
+        System.out.println("Hi," + name);
+        System.out.println("Your gpa is: " + gpa);
+        System.out.println("The year is " + year);
 
-        if(isOnline){
-            System.out.println("My email is " + email);
+        if(isStudent){
+            System.out.println("You are a student");
         }
         else{
-            System.out.println("Offline");
+            System.out.println("You are NOT a student");
         }
     }
 }
