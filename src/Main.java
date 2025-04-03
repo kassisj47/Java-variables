@@ -14,15 +14,20 @@ public class Main {
         //    char                        object
         //    boolean
 
-        int age = 21;
+        // 2 Steps to creating a variable
+        // ------------------------------
+        // 1. declaration
+        // 2. assignment
+
+        int age = 24;
         int year = 2025;
         int quantity = 1;
 
         double price = 19.99;
-        double gpa = 3.5;
+        double gpa = 3.2;
         double temperature = -12.5;
 
-        char grade = 'A';
+        char grade = 'B';
         char symbol = '!';
         char currency = '$';
 
@@ -30,20 +35,21 @@ public class Main {
         boolean forSale = false;
         boolean isOnline = true;
 
-        String name = "Bro Code";
+        String name = "Jonathan";
         String food = "pizza";
-        String email = "fake123@gmail.com";
+        String email = "kassisj4@gmail.com";
         String car = "Mustang";
         String color = "red";
 
-        System.out.println("Your choice is a " + color + " " + year + " " + car);
-        System.out.println("The price is: " + currency + price);
+        System.out.println("Hi, I am Jonathan!");
+        System.out.println("Java is my first programming language");
+        System.out.println("My gpa is: " + gpa);
 
-        if(forSale){
-            System.out.println("There is a " + car + " for sale");
+        if(isOnline){
+            System.out.println("My email is " + email);
         }
         else{
-            System.out.println("The " + car + " is not for sale");
+            System.out.println("Offline");
         }
     }
 }
