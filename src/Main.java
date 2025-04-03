@@ -41,8 +41,9 @@ public class Main {
         String car = "Mustang";
         String color = "red";
 
-        System.out.println("Hi," + name);
+        System.out.println("Hi, " + name);
         System.out.println("Your gpa is: " + gpa);
+        System.out.println("Your average letter grade is a " + grade);
         System.out.println("The year is " + year);
 
         if(isStudent){
